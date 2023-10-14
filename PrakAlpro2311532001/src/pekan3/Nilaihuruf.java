@@ -1,7 +1,5 @@
 package pekan3;
-
 import java.util.Scanner;
-
 public class Nilaihuruf {
 
 	public static void main(String[] args) {
@@ -10,7 +8,7 @@ public class Nilaihuruf {
 		System.out.println("Input nilai Anda");
 		nilai=input.nextInt();
 		input.close();
-		if ((nilai>100)||(nilai<0)){
+		if ((nilai > 100)||(nilai<0)) {
 			System.out.println("Nilai tidak valid");
 		}
 		else if (nilai>=81) {
@@ -28,8 +26,5 @@ public class Nilaihuruf {
 		else if (nilai<51) {
 			System.out.println("E");
 		}
-		
-		
 	}
-
 }

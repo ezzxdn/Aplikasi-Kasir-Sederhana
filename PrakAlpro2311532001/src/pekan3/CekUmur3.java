@@ -1,7 +1,5 @@
 package pekan3;
-
 import java.util.Scanner;
-
 public class CekUmur3 {
 
 	public static void main(String[] args) {

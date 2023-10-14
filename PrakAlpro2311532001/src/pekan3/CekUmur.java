@@ -8,9 +8,7 @@ class CekUmur {
 		if (umur >= 17) {
 			System.out.println("Anda sudah dewasa");
 		
-		} else {
-			System.out.println("Anda belum dewasa");
-		}
+		} 
 		}
 
 	}
