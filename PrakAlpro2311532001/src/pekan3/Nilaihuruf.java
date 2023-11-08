@@ -5,13 +5,13 @@ public class Nilaihuruf {
 	public static void main(String[] args) {
 		int nilai;
 		Scanner input=new Scanner(System.in);
-		System.out.println("Input nilai Anda");
+		System.out.print("Input nilai Anda: ");
 		nilai=input.nextInt();
 		input.close();
 		if ((nilai > 100)||(nilai<0)) {
 			System.out.println("Nilai tidak valid");
 		}
-		else if (nilai>=81) {
+		else if (nilai>=81)  {
 			System.out.println("A");
 		}
 		else if (nilai>=71) {
