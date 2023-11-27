@@ -8,7 +8,7 @@ public class OperatorTernary1 {
 		
 		Scanner input = new Scanner (System.in);
 		
-		System.out.println("IPK Anda = ");
+		System.out.print("IPK Anda = ");
 		IPK = input.nextDouble();
 		input.close();
 		
