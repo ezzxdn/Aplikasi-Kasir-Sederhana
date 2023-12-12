@@ -94,19 +94,19 @@ public class InputDataMahasiswa extends JFrame {
 		lblInfo.setBounds(31, 165, 324, 58);
 		contentPane.add(lblInfo);
 		
-		JButton btnProses = new JButton("Proses");
-		btnProses.addActionListener(new ActionListener() {
+		JButton btnSimpan = new JButton("Simpan");
+		btnSimpan.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String n = textNama.getText();
 				long NIM = Long.parseLong(textNIM.getText());
 				String Jurusan = cbJurusan.getSelectedItem().toString();
 				
-				lblInfo.setText(n+", Anda terdaftar sebagai mahasiswa "+Jurusan);
+				lblInfo.setText("Data Anda berhasil disimpan.");
 			}
 		});
-		btnProses.setFont(new Font("Times New Roman", Font.BOLD, 15));
-		btnProses.setBounds(41, 229, 89, 23);
-		contentPane.add(btnProses);
+		btnSimpan.setFont(new Font("Times New Roman", Font.BOLD, 15));
+		btnSimpan.setBounds(41, 229, 89, 23);
+		contentPane.add(btnSimpan);
 		
 		JButton btnReset = new JButton("Reset");
 		btnReset.addActionListener(new ActionListener() {
@@ -118,7 +118,7 @@ public class InputDataMahasiswa extends JFrame {
 			}
 
 		});
-		btnReset.setFont(new Font("Times New Roman", Font.BOLD, 10));
+		btnReset.setFont(new Font("Times New Roman", Font.BOLD, 15));
 		btnReset.setBounds(292, 229, 89, 23);
 		contentPane.add(btnReset);
 	}
